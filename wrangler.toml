@@ -1,0 +1,15 @@
+name = "sitemap-crawler"
+type = "webpack"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-02-05"
+
+kv_namespaces = [
+  { binding = "KV", id = "", preview_id = ""}
+]
+
+[triggers]
+crons = ["0 * * * *"]
